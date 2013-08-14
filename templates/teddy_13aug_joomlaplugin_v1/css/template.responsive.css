@@ -1,16 +1,4 @@
 /* Created by Artisteer v4.1.0.59861 */
-.sidebar-man{
-  /* display: block; */
-  background: url("../data/images//uomo-2_logo.png");
-  /* background-size: 100%; */
-  margin-top: -46px;
-  /* background-color: black; */
-  height: 700px;
-  /* max-height: 100%; */
-  /* height: 100%; */
-  width: 201px;
-}
-
 .responsive body
 {
    min-width: 240px;
@@ -92,6 +80,17 @@
    display: none;
 }
 
+.sidebar-man{
+  /* display: block; */
+  background: url("../data/images/uomo-2_logo.png");
+  /* background-size: 100%; */
+  margin-top: -46px;
+  /* background-color: black; */
+  height: 700px;
+  /* max-height: 100%; */
+  /* height: 100%; */
+  width: 201px;
+}
 
 /* @media all and (max-width: 1024px) */
 /* { */
@@ -106,10 +105,11 @@
 {
     #art-resp, #art-resp-t { display: block; }
     #art-resp-m { display: none; }
-    .art-layout-cell .art-sidebar1 {
-      background:url(..\data\images\Uomo-Logo.png)
-      height: 200px;
+    .sidebar-man{
+      background:url("../data/images/Uomo-Logo.png");
+      height: 250px;
       width: 201px;
+      margin: 0 20% 0 20%;
     }
 }
 
