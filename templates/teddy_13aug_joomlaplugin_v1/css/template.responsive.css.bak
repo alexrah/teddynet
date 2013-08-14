@@ -91,16 +91,19 @@
   /* height: 100%; */
   width: 201px;
 }
+
+/* @media all and (max-width: 1024px) */
+/* { */
+/*   .art-layout-cell .art-sidebar1 { */
+/*     background: url('..\data\images\Uomo-2_Logo.png'); */
+/*     height: 700px; */
+/*     width: 201px; */
+/*   } */
+/* } */
+/*  */
 @media all and (max-width: 919px)
 {
-    /* #art-resp { display: block; } */
-    .art-hmenu {overflow: auto; width: 100%; margin: auto 20%; }
-    .art-hmenu .item-490 {display: none;}
-    .art-hmenu .item-500 {display: none;}
-    .art-hmenu .item-502 {display: none;}
-    .art-hmenu .item-504 {display: none;}
-    .art-hmenu .item-506 { display: none;}
-    #art-resp-t {display: block;}
+    #art-resp, #art-resp-t { display: block; }
     #art-resp-m { display: none; }
     .sidebar-man{
       background:url("../data/images/Uomo-Logo.png");
@@ -108,6 +111,7 @@
       width: 201px;
       margin: 0 20% 0 20%;
     }
+}
 
 @media all and (max-width: 480px)
 {
