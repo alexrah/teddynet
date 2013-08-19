@@ -84,15 +84,12 @@
   /* display: block; */
   background: url("../data/images/uomo-2_logo.png");
   /* background-size: 100%; */
-  /* margin-top: -46px; */
+  margin-top: -46px;
   /* background-color: black; */
   height: 700px;
   /* max-height: 100%; */
   /* height: 100%; */
   width: 201px;
-}
-ul.art-hmenu{
-  margin-top: -76.3%;
 }
 @media all and (max-width: 919px)
 {
@@ -112,7 +109,7 @@ ul.art-hmenu{
       background-repeat: no-repeat;
       height: 255px;
       width: 201px;
-      margin: 0 20%;  /* IMMAGINE TEDDYNET PICCOLA CENTRATA */
+      margin: 0 20% 0 20%;  /* IMMAGINE TEDDYNET PICCOLA CENTRATA */
       /* margin: -140px 0 0 -200px; */
       /* clear: both; */
       /* float: left; */
@@ -120,7 +117,7 @@ ul.art-hmenu{
     }
     /* .art-nav .desktop-nav{margin: 10px auto;} */
     ul.art-hmenu {
-      margin: 0 auto;
+      margin: 150px auto 0;
       width: 45%;  /* this way I make the menu display on 2 rows */
       float: none; /* Display menu centered */
     }
@@ -132,7 +129,7 @@ ul.art-hmenu{
     }
   }
 
-@media all and (max-width: 580px)
+@media all and (max-width: 480px)
 {
     #art-resp, #art-resp-m { display: block; }
     #art-resp-t { display: none; }
