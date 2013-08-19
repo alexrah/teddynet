@@ -56,18 +56,25 @@ JHtml::_('behavior.framework', true);
 
 <div id="art-main">
     <div class="art-sheet clearfix">
- <div class="art-content-layout-row">
-                        <?php if ($view->containsModules('position-7', 'position-4', 'position-5')) : ?>
-<div class="art-layout-cell art-sidebar1">
-<?php echo $view->position('position-7', 'art-block'); ?>
-<?php echo $view->position('position-4', 'art-block'); ?>
-<?php echo $view->position('position-5', 'art-block'); ?>
-
-
-
-                        </div>
-<?php endif; ?>
-</div>
+<!--  <div class="art-content-layout-row"> -->
+<!--                         <?php if ($view->containsModules('position-7', 'position-4', 'position-5')) : ?>\
+ -->
+<!-- <div class="art-layout-cell art-sidebar1">\
+ -->
+<!-- <?php echo $view->position('position-7', 'art-block'); ?>\
+ -->
+<!-- <?php echo $view->position('position-4', 'art-block'); ?>\
+ -->
+<!-- <?php echo $view->position('position-5', 'art-block'); ?>\
+ -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--                         </div>\
+ -->
+<!-- <?php endif; ?>\
+ -->
+<!-- </div> -->
 
 <?php if ($view->containsModules('position-1', 'position-28', 'position-29')) : ?>
 <nav class="art-nav">
@@ -86,24 +93,20 @@ JHtml::_('behavior.framework', true);
 <?php echo $view->positions(array('position-16' => 33, 'position-17' => 33, 'position-18' => 34), 'art-block'); ?>
 <div class="art-layout-wrapper">
                 <div class="art-content-layout">
-<!--                     <div class="art-content-layout-row"> -->
-<!--                         <?php if ($view->containsModules('position-7', 'position-4', 'position-5')) : ?>\
- -->
-<!-- <div class="art-layout-cell art-sidebar1">\
- -->
-<!-- <?php echo $view->position('position-7', 'art-block'); ?>\
- -->
-<!-- <?php echo $view->position('position-4', 'art-block'); ?>\
- -->
-<!-- <?php echo $view->position('position-5', 'art-block'); ?>\
- -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--                         </div>\
- -->
-<!-- <?php endif; ?>\
- -->
+                    <div class="art-content-layout-row">
+                         <?php if ($view->containsModules('position-7', 'position-4', 'position-5')) : ?>
+
+<div class="art-layout-cell art-sidebar1">
+
+<?php echo $view->position('position-7', 'art-block'); ?>
+
+<?php echo $view->position('position-4', 'art-block'); ?>
+
+<?php echo $view->position('position-5', 'art-block'); ?>
+                         </div>
+
+<?php endif; ?>
+
 
                         <div class="art-layout-cell art-content">
 <?php
